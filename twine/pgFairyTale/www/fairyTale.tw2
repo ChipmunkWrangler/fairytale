@@ -1,0 +1,23 @@
+::StoryTitle
+FairyTale
+
+::Start <412,200>
+$PlayerName wakes up. She isn't in her bed. She isn't even in her room. She isn't at home at all. She is in a midnight forest.
+$PlayerName...
+[[hides]].
+[[yells for help]].
+
+::GetName <420,68>
+What is your name?
+<<textbox "$PlayerName" "">>
+When you're ready, click [[Start]].
+
+::hides <337,350>
+Double-click this passage to edit it.
+
+::yells for help <487,350>
+Double-click this passage to edit it.
+
+::Twee2Settings [twee2]
+@story_start_name = 'GetName'
+
